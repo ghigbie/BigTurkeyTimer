@@ -7,7 +7,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/colorful_turkey"/>
+            android:src="@drawable/thanksgiving_timer_splash"/>
     </item>
 
 </layer-list>
