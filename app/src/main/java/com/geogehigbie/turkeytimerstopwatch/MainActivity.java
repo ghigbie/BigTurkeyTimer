@@ -533,19 +533,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyStraightFromLeftBig(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitch1 = (ImageView) findViewById(R.id.turkeyIconLarge1);
-        bigWitch1.clearAnimation();
+        ImageView bigTurkey1 = (ImageView) findViewById(R.id.turkeyIconLarge1);
+        bigTurkey1.clearAnimation();
 
-        bigWitch1.setMaxHeight(2500);
-        bigWitch1.setMaxWidth(2500);
-        bigWitch1.setVisibility(View.VISIBLE);
+        bigTurkey1.setMaxHeight(2500);
+        bigTurkey1.setMaxWidth(2500);
+        bigTurkey1.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation1 = new TranslateAnimation(-1000.0f, 2100.0f, 100.0f, 100.0f);
         animation1.setDuration(1800);
         animation1.setRepeatCount(0);
         animation1.setRepeatMode(0);
         animation1.setFillAfter(true);
-        bigWitch1.startAnimation(animation1);
+        bigTurkey1.startAnimation(animation1);
 
         provideAnimationListener(imageView, animation1, textView);
     }
@@ -553,18 +553,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyFromLowerLeftSmall(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitch2 = (ImageView) findViewById(R.id.turkeyIconLarge1);
-        bigWitch2.clearAnimation();
-        bigWitch2.setMaxHeight(600);
-        bigWitch2.setMaxWidth(600);
-        bigWitch2.setVisibility(View.VISIBLE);
+        ImageView bigTurkey2 = (ImageView) findViewById(R.id.turkeyIconLarge1);
+        bigTurkey2.clearAnimation();
+        bigTurkey2.setMaxHeight(600);
+        bigTurkey2.setMaxWidth(600);
+        bigTurkey2.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation2 = new TranslateAnimation(-1000.0f, 2100.0f, 200.0f, -700.0f);
         animation2.setDuration(2000);
         animation2.setRepeatCount(0);
         animation2.setRepeatMode(0);
         animation2.setFillAfter(true);
-        bigWitch2.startAnimation(animation2);
+        bigTurkey2.startAnimation(animation2);
 
         provideAnimationListener(imageView, animation2, textView);
 
@@ -572,18 +572,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyFromLowerLeftBig(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitch2 = (ImageView) findViewById(R.id.turkeyIconLarge1);
-        bigWitch2.clearAnimation();
-        bigWitch2.setMaxHeight(2600);
-        bigWitch2.setMaxWidth(2600);
-        bigWitch2.setVisibility(View.VISIBLE);
+        ImageView bigTurkey2 = (ImageView) findViewById(R.id.turkeyIconLarge1);
+        bigTurkey2.clearAnimation();
+        bigTurkey2.setMaxHeight(2600);
+        bigTurkey2.setMaxWidth(2600);
+        bigTurkey2.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation2 = new TranslateAnimation(-1000.0f, 2100.0f, 200.0f, -700.0f);
         animation2.setDuration(2000);
         animation2.setRepeatCount(0);
         animation2.setRepeatMode(0);
         animation2.setFillAfter(true);
-        bigWitch2.startAnimation(animation2);
+        bigTurkey2.startAnimation(animation2);
 
         provideAnimationListener(imageView, animation2, textView);
 
@@ -591,38 +591,38 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyFromUpperLeftSmall(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitch3 = (ImageView) findViewById(R.id.turkeyIconLarge1);
-        bigWitch3.clearAnimation();
+        ImageView bigTurkey3 = (ImageView) findViewById(R.id.turkeyIconLarge1);
+        bigTurkey3.clearAnimation();
 
-        bigWitch3.setMaxHeight(500);
-        bigWitch3.setMaxWidth(500);
-        bigWitch3.setVisibility(View.VISIBLE);
+        bigTurkey3.setMaxHeight(500);
+        bigTurkey3.setMaxWidth(500);
+        bigTurkey3.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation3 = new TranslateAnimation(-1000.0f, 2100.0f, -600.0f, 900.0f);
         animation3.setDuration(2000);
         animation3.setRepeatCount(0);
         animation3.setRepeatMode(0);
         animation3.setFillAfter(true);
-        bigWitch3.startAnimation(animation3);
+        bigTurkey3.startAnimation(animation3);
 
         provideAnimationListener(imageView, animation3, textView);
     }
 
     public void flyFromUpperLeftBig(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitch3 = (ImageView) findViewById(R.id.turkeyIconLarge1);
-        bigWitch3.clearAnimation();
+        ImageView bigTurkey3 = (ImageView) findViewById(R.id.turkeyIconLarge1);
+        bigTurkey3.clearAnimation();
 
-        bigWitch3.setMaxHeight(3000);
-        bigWitch3.setMaxWidth(3000);
-        bigWitch3.setVisibility(View.VISIBLE);
+        bigTurkey3.setMaxHeight(3000);
+        bigTurkey3.setMaxWidth(3000);
+        bigTurkey3.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation3 = new TranslateAnimation(-1000.0f, 2100.0f, -600.0f, 900.0f);
         animation3.setDuration(2000);
         animation3.setRepeatCount(0);
         animation3.setRepeatMode(0);
         animation3.setFillAfter(true);
-        bigWitch3.startAnimation(animation3);
+        bigTurkey3.startAnimation(animation3);
 
         provideAnimationListener(imageView, animation3, textView);
 
@@ -631,76 +631,76 @@ public class MainActivity extends AppCompatActivity {
 
     public void flyFromLowerRightBig(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitchBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
-        bigWitchBackward1.clearAnimation();
+        ImageView bigTurkeyBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
+        bigTurkeyBackward1.clearAnimation();
 
-        bigWitchBackward1.setMaxHeight(3500);
-        bigWitchBackward1.setMaxWidth(3500);
-        bigWitchBackward1.setVisibility(View.VISIBLE);
+        bigTurkeyBackward1.setMaxHeight(3500);
+        bigTurkeyBackward1.setMaxWidth(3500);
+        bigTurkeyBackward1.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation1 = new TranslateAnimation(1000.0f, -2100.0f, 600.0f, -900.0f);
         animation1.setDuration(2000);
         animation1.setRepeatCount(0);
         animation1.setRepeatMode(0);
         animation1.setFillAfter(true);
-        bigWitchBackward1.startAnimation(animation1);
+        bigTurkeyBackward1.startAnimation(animation1);
 
         provideAnimationListener(imageView, animation1, textView);
     }
 
     public void flyFromLowerRightSmall(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitchBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
-        bigWitchBackward1.clearAnimation();
+        ImageView bigTurkeyBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
+        bigTurkeyBackward1.clearAnimation();
 
-        bigWitchBackward1.setMaxHeight(600);
-        bigWitchBackward1.setMaxWidth(600);
-        bigWitchBackward1.setVisibility(View.VISIBLE);
+        bigTurkeyBackward1.setMaxHeight(600);
+        bigTurkeyBackward1.setMaxWidth(600);
+        bigTurkeyBackward1.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation1 = new TranslateAnimation(1000.0f, -2100.0f, 600.0f, -900.0f);
         animation1.setDuration(2000);
         animation1.setRepeatCount(0);
         animation1.setRepeatMode(0);
         animation1.setFillAfter(true);
-        bigWitchBackward1.startAnimation(animation1);
+        bigTurkeyBackward1.startAnimation(animation1);
 
         provideAnimationListener(imageView, animation1, textView);
     }
 
     public void flyFromUpperRightBig(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitchBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
-        bigWitchBackward1.clearAnimation();
+        ImageView bigTurkeyBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
+        bigTurkeyBackward1.clearAnimation();
 
-        bigWitchBackward1.setMaxHeight(3500);
-        bigWitchBackward1.setMaxWidth(3500);
-        bigWitchBackward1.setVisibility(View.VISIBLE);
+        bigTurkeyBackward1.setMaxHeight(3500);
+        bigTurkeyBackward1.setMaxWidth(3500);
+        bigTurkeyBackward1.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation1 = new TranslateAnimation(1000.0f, -1100.0f, -900.0f, 500.0f);
         animation1.setDuration(2000);
         animation1.setRepeatCount(0);
         animation1.setRepeatMode(0);
         animation1.setFillAfter(true);
-        bigWitchBackward1.startAnimation(animation1);
+        bigTurkeyBackward1.startAnimation(animation1);
 
         provideAnimationListener(imageView, animation1, textView);
     }
 
     public void flyFromUpperRightSmall(final ImageView imageView, final TextView textView) {
 
-        ImageView bigWitchBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
-        bigWitchBackward1.clearAnimation();
+        ImageView bigTurkeyBackward1 = (ImageView) findViewById(R.id.turkeyIconLargeBackWard1);
+        bigTurkeyBackward1.clearAnimation();
 
-        bigWitchBackward1.setMaxHeight(500);
-        bigWitchBackward1.setMaxWidth(500);
-        bigWitchBackward1.setVisibility(View.VISIBLE);
+        bigTurkeyBackward1.setMaxHeight(500);
+        bigTurkeyBackward1.setMaxWidth(500);
+        bigTurkeyBackward1.setVisibility(View.VISIBLE);
 
         TranslateAnimation animation1 = new TranslateAnimation(1000.0f, -1100.0f, -900.0f, 500.0f);
         animation1.setDuration(2000);
         animation1.setRepeatCount(0);
         animation1.setRepeatMode(0);
         animation1.setFillAfter(true);
-        bigWitchBackward1.startAnimation(animation1);
+        bigTurkeyBackward1.startAnimation(animation1);
 
         provideAnimationListener(imageView, animation1, textView);
     }
